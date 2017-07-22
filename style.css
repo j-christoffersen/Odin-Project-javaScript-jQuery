@@ -1,0 +1,43 @@
+.header {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.container {
+    height: 720px;
+    width: 720px;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.square {
+    display: inline-block;
+    background-color: black;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.popup.show {
+    visibility: visible;
+}
+
+.popup {
+    background-color: LightGray;
+    border: 2px solid Gray;
+    border-radius: 10px;
+    position: Absolute;
+    margin: auto;
+    margin-top: 100px;
+    visibility: hidden;
+    text-align: center;
+}
+
